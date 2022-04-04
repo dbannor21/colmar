@@ -1,0 +1,21 @@
+header {
+    max-height: 64px;
+    background-color: white;
+    display: flex;
+    margin: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    height: 32px;
+}
+header img {
+    width: auto;
+    height: 32px;
+}
+header div p {
+    margin-left: 16px;
+}
+header div {
+    display: inline-flex;
+}
