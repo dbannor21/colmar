@@ -19,3 +19,6 @@ header div p {
 header div {
     display: inline-flex;
 }
+.banner {
+    display: flex;
+}
