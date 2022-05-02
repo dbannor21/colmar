@@ -1,17 +1,25 @@
 header {
-    max-height: 64px;
-    background-color: white;
+    height: 4rem;
+    /* background-color: white;
     display: flex;
     margin: 0 24px;
     align-items: center;
+    justify-content: space-between; */
+    display: block;
+    width: 100%;
+}
+header .items {
+    display: flex;
+    width: 100%;
     justify-content: space-between;
+
 }
-h1 {
-    height: 32px;
-}
-header img {
-    width: auto;
-    height: 32px;
+header .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
 }
 header div p {
     margin-left: 16px;
@@ -20,5 +28,14 @@ header div {
     display: inline-flex;
 }
 .banner {
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+}
+.banner img {
+    margin: 32px 24px;
+    width: 60%;
+}
+.banner text {
     display: flex;
 }
